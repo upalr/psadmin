@@ -4,7 +4,7 @@
 var React = require('react');
 var Router = require('react-router');
 var AuthorForm = require('./authorForm');
-//var AuthorApi = require('../api/authorApi');
+//var AuthorApi = require('../api/authorApi'); // no longer use Apidirectly. we can now use flux's action for accessing web api.
 var AuthorActions = require('../../actions/authorActions');
 var AuthorStore = require('../../stores/authorStore');
 var toastr = require('toastr');
