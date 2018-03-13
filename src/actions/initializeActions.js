@@ -1,6 +1,6 @@
 "use strict";
 
-//action ar main kaj api (authorApi) ar shathe
+//action ar main kaj api (authorApi)/database ar shathe
 
 var Dispatcher = require('../dispatcher/appDispatcher');
 var ActionTypes = require('../constants/actionTypes');
